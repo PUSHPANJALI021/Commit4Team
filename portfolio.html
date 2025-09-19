@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Upload Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Your Portfolio</h1>
+    <p class="lead">Fill your details and upload your portfolio in PDF format.</p>
+
+    
+    <form id="portfolioForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="text" id="year" placeholder="Year (e.g., 1st Year,2nd Year,3rd Year)" required />
+      <input type="text" id="college" placeholder="College Name" required />
+      <input type="file" id="portfolioFile" accept="application/pdf" required />
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    
+    <div id="fileInfo" class="file-info"></div>
+  </div>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>

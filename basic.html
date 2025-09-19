@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Commit2Team</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Commit2Team</div>
+    </nav>
+  <div class="container">
+    <header class="hero">
+      <h1 class="floating">Commit2Team</h1>
+      <p class="lead">“Find your perfect hackathon squad.”</p>
+    </header>
+
+  
+    <div class="card">
+      <h2>Find Teammates</h2>
+      <div class="filters">
+        <input type="text" id="searchSkill" placeholder="Search by skill (AI, Web Dev, UI/UX...)" />
+        <select id="roleSelect">
+          <option value="">Select Role</option>
+          <option value="Developer">Developer</option>
+          <option value="Designer">Designer</option>
+          <option value="ML Engineer">ML Engineer</option>
+          <option value="Healthcare Expert">Healthcare Expert</option>
+        </select>
+        <button class="btn" id="searchBtn">Search</button>
+      </div>
+    </div>
+
+  
+    <div class="results" id="results">
+      
+      <div class="profile-card">
+        <h3>Priya Sharma</h3>
+        <p><strong>Role:</strong> ML Engineer</p>
+        <p><strong>Skills:</strong> Python, TensorFlow, NLP</p>
+        <button class="btn ghost">Connect</button>
+      </div>
+
+      <div class="profile-card">
+        <h3>Arjun Mehta</h3>
+        <p><strong>Role:</strong> Web Developer</p>
+        <p><strong>Skills:</strong> React, Node.js, Firebase</p>
+        <button class="btn ghost">Connect</button>
+      </div>
+
+      <div class="profile-card">
+        <h3>Sneha Gupta</h3>
+        <p><strong>Role:</strong> Designer</p>
+        <p><strong>Skills:</strong> Figma, UI/UX, Branding</p>
+        <button class="btn ghost">Connect</button>
+      </div>
+    </div>
+
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
